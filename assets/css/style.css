@@ -215,3 +215,41 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+.main-section {
+  width: 60%;
+}
+#masthead, #logo {
+  width: 100%;
+}
+
+.sidebar {
+  width: 30%;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+.main-section, .sidebar, #masthead, #logo {
+  width: 100%;
+}
+.auth-image{
+  width: 400px;
+  height: auto;
+} 
+}
+
+@media screen and (max-width: 640px) {
+  .main-section, #masthead, #logo {
+    width: 100%;
+  }
+.sidebar {
+  width: 70%;
+  float: none;
+}
+.auth-image{
+  width: 300px;
+  height: auto;
+} }
+
